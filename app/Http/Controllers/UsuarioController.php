@@ -11,7 +11,7 @@ use ProVentas\Http\Requests\UsuarioFormRequest;
 use DB;
 class UsuarioController extends Controller
 {
-    public function __construct()
+   public function __construct()
     {
         $this->middleware('auth');
     }
